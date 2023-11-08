@@ -1,0 +1,27 @@
+$title: #00A092;
+$default: #000000;
+$orange: #F58021;
+$white: #ffffff;
+$purple: #20113d;
+
+
+%title-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+%covichki {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 146px;
+    letter-spacing: 0.01em;
+    color: $title;
+}
+
+@function max($numbers...) {
+ @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+ @return m#{i}x(#{$numbers});
+}
